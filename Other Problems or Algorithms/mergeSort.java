@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 class Solution {
     public void merge(int[] nums, int low, int mid, int high) {
+        // TC->Nlog2(N) SC->O(N)
         int left = low;
         int right = mid+1;
         ArrayList<Integer> list = new ArrayList<>();
