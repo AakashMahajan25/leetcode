@@ -5,7 +5,7 @@ class Solution {
         int left = low;
         int right = mid+1;
         ArrayList<Integer> list = new ArrayList<>();
-        while (left<=mid && right<=high) {
+        while (left<=mid && right<=high) { 
             if (nums[left]<nums[right]) {
                 list.add(nums[left]);
                 left++;
