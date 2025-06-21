@@ -1,4 +1,5 @@
 class Solution {
+    // TC->O(logn) SC->O(1)
     public long floorSqrt(long n) {
         long low = 1;
         long high = n;
